@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+#root {
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  min-width: 100%;
+  min-height: 100%;
+  height: 100% ;
+  padding-bottom:2%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+.pagetops{
+  display: flex;
+  align-self: flex-start;
+  width: 100%;
+  height: fit-content;
+
+}
+.counters{
+  display: flex;
+  flex-flow: row wrap;
+  text-justify:newspaper;
+  align-self: center;
+  text-align: start;
+  min-width: 250px;
+  width: fit-content;
+  h1{
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+  }
+}
+
+.main-content{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.pagecontent {
+  display: flex;
+  min-width: 286.8px;
+  min-height: 480px;
+  align-self: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.pageletter{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-width: 464px;
+  min-height: 152px;
+  row-gap: 24px;
+  align-self: center;
+  justify-items: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.icon{
+  display: flex;
+  flex-flow: row wrap;
+  min-width:115px;
+  min-height:18px;
+  column-gap: 8px;
+  align-self: flex-start;
+  justify-self: end;
+  align-items: center;
+  justify-items: flex-start;
+  span{
+    font-size: 16px;
+    color: black;
+   }
+}

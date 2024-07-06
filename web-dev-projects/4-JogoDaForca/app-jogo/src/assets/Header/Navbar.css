@@ -1,0 +1,13 @@
+.top-div{
+    display: flex;
+    width: 80%;
+    flex-flow: row;
+    align-items: flex-start;
+    padding-top: 40px;
+    column-gap: 40px;
+}
+
+.top-logo {
+    width: 120px; 
+    height: 48px;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "6-crudmembros",
+  "version": "1.0.0",
+  "description": "- **Orientadores:** Turma  [Fábio Santos Matos de Oliveira](https://gitlab.com/Fabio-Matos1303) | Turma  [Djair Maykon](https://gitlab.com/djairmaykon) | Turma  [Márcio R. Júnior](https://gitlab.com/marciojunior2109) \r - **Coorientadores gerais:** [Raissa Luna](https://gitlab.com/raissalunana) | [Lucas Júlio](https://gitlab.com/LucasJulio)",
+  "main": "index.js",
+  "scripts": {
+    "dev":"ts-node ./src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "prisma": "^5.15.0"
+  }
+}

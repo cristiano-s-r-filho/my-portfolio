@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px; 
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: white;
+    height: 120px;
+    column-gap: 800px;
+}
+
+.logo{
+    font-size: 48px;
+    align-self: center;
+    font-weight: 700;
+    text-align: left; 
+    width: 280px;
+}
+
+strong{
+    color: #00f000;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    column-gap: 20px; 
+}
+
+.nav-botão{
+    justify-self: end;
+    font-size: 16px;
+    font-weight: 500;    
+    line-height: 21.79px;   
+    text-align: center;
+    background: rgba(126, 211, 33, 0.4);
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    border-color: transparent;
+}
+
+
+.homepage-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    background-color: white;
+}
+
+.homepage-content{
+    display: flex;
+    flex-flow: column;
+    align-content:space-between;
+    justify-content: center;
+    justify-self: center;
+    width: 340px;
+    height: 234px;
+    left: 200px;
+}
+
+.paragrafo-homepage{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 65.37px;
+    text-align: left;
+}
+
+.botao{
+    justify-self: end;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: center;
+    background: #7ED321;
+    border-radius: 15px;
+    width: 220px;
+    height: 51px;
+    border-color: transparent;
+}
+
+.homepage-image{
+    display: flex;
+    flex-shrink: 2;
+    align-content: center;
+    justify-self: right;
+    width: 640px;
+    height: 480px;
+    top: 150px;
+    left: 600px;
+    padding: 0px 46.25px 20px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.about-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: white;
+}
+
+.about-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 687px;
+    text-align: justify;
+}
+
+.blog-main{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.blog-content {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: baseline;
+    justify-content: center;
+    width: 1084px;
+}
+
+.blog-post {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 780px;
+    text-align: justify;
+}
+
+.contact-main {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-content{  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 35px;
+}
+
+.input-form {
+    width: 258px;
+    height: 28px;
+    text-align: left;
+    border-radius: 7px;
+    border-color: rgba(159, 159, 159, 1);
+    color: rgba(159, 159, 159, 1);
+}
+
+.contact-div-alternative {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 35px;
+    width: auto;
+}
+
+.input-big {
+    height: 80px;
+    width: 258px;
+    text-align: left;
+    border-radius: 7px;
+    border-color: rgba(159, 159, 159, 1);
+    color: rgba(159, 159, 159, 1);
+}
+
+.send-botao {
+    align-self: flex-end;
+    width: 100px;
+    height: 30px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color:rgba(126, 211, 33, 1);
+}

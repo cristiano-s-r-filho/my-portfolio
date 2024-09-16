@@ -1,4 +1,4 @@
-import logo from './../../../public/logo-alura.png'
+import logo from '../../../public/logo-alura.png'
 import "./Navbar.css"
 
 export default function Navbar () {

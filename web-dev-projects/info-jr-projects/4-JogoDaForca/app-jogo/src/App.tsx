@@ -5,7 +5,7 @@ import HangmanDraw from "./assets/Content/HagmanDraw/HangmanDraw"
 import HangmanWord from "./assets/Content/HagmanWord/HangmanWord"
 import './App.css'
 import { useCallback, useEffect, useState } from "react"
-import icon from './../public/exclamation-sign.png'
+import icon from '../public/exclamation-sign.png'
 
 
 function App() {

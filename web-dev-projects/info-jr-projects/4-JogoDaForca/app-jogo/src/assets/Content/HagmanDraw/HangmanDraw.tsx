@@ -1,9 +1,9 @@
-import {Head} from "./../../HangmanAssets/HangmanAssets"
-import { Body } from "./../../HangmanAssets/HangmanAssets"
-import { RightArm } from "./../../HangmanAssets/HangmanAssets"
-import { LeftArm } from "./../../HangmanAssets/HangmanAssets"
-import { RightLeg } from "./../../HangmanAssets/HangmanAssets"
-import { LeftLeg } from "./../../HangmanAssets/HangmanAssets"
+import {Head} from "../../HangmanAssets/HangmanAssets"
+import { Body } from "../../HangmanAssets/HangmanAssets"
+import { RightArm } from "../../HangmanAssets/HangmanAssets"
+import { LeftArm } from "../../HangmanAssets/HangmanAssets"
+import { RightLeg } from "../../HangmanAssets/HangmanAssets"
+import { LeftLeg } from "../../HangmanAssets/HangmanAssets"
 
 type DrawProps = {
     numberOfGuesses:number;

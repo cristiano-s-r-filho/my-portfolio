@@ -1,9 +1,9 @@
 import { asHTML } from "@prismicio/client";
 import { createClient } from "../prismicio";
 import { PrismicImage } from "@prismicio/react";
-import xwitter from './../../public/twitter-icon.png'
-import instagram from './../../public/instagram-icon.png'
-import figma from './../../public/figma-icon.png'
+import xwitter from '../../public/twitter-icon.png'
+import instagram from '../../public/instagram-icon.png'
+import figma from '../../public/figma-icon.png'
 export default async function Home() {
   // Definindo a variavel pra carregar o conteudo: 
   const prismic = createClient()

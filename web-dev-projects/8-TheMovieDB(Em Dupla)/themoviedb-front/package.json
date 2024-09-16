@@ -15,7 +15,7 @@
     "@radix-ui/react-popover": "^1.1.1",
     "@radix-ui/react-slot": "^1.1.0",
     "@tanstack/react-query": "^5.45.1",
-    "axios": "^1.7.2",
+    "axios": "^1.7.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
@@ -26,9 +26,10 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
-    "shadcn-ui": "^0.8.0",
+    "shadcn-ui": "^0.2.3",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "themoviedb-front": "file:"
   },
   "devDependencies": {
     "@types/node": "^20",
